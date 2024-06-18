@@ -19,8 +19,7 @@ Steps -
 
 Clone the Repository -
 
-Copy code
-git clone https://github.com/yourusername/attendance-management-system.git
+        git clone https://github.com/MAB-52/Attendance_management_system.git
 
 Set Up the Database - 
 
@@ -34,18 +33,18 @@ Update the config.php file with your database credentials.
 php -
 Copy code -
 
-<?php
-$host = 'localhost';
-$user = 'your_db_username';
-$password = 'your_db_password';
-$dbname = 'attendance_system';
+    <?php
+    $host = 'localhost';
+    $user = 'your_db_username';
+    $password = 'your_db_password';
+    $dbname = 'attendance_system';
 
-$conn = mysqli_connect($host, $user, $password, $dbname);
+    $conn = mysqli_connect($host, $user, $password, $dbname);
 
-if (!$conn) {
+    if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
-}
-?>
+    }
+    ?>
 
 Start the Web Server
 
@@ -53,14 +52,14 @@ Ensure your web server is running and navigate to the project directory in your 
 
 Usage -
 
-Login
-Navigate to the login page.
-Enter your credentials to log in.
-Add New Student
-Go to the "Add New Student" section.
-Fill in the student's details.
-Click "ADD STUDENT" to save the record.
-Mark Attendance
-Check the boxes next to student names to mark them as present.
-Click "Submit Attendance" to save the attendance status.
+  Login
+  Navigate to the login page.
+  Enter your credentials to log in.
+  Add New Student
+  Go to the "Add New Student" section.
+  Fill in the student's details.
+  Click "ADD STUDENT" to save the record.
+  Mark Attendance
+  Check the boxes next to student names to mark them as present.
+  Click "Submit Attendance" to save the attendance status.
 
