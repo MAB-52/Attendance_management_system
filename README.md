@@ -1,7 +1,7 @@
 # Attendance_management_system
 
 Overview -
-The Attendance Management System is a web-based application developed using PHP and MySQL. It allows faculty members to add student records and manage attendance efficiently. The system ensures that attendance statuses remain persistent even when new student records are added.
+The Attendance Management System is a web-based application developed using PHP and MySQL. It allows faculty members to add student records and manage attendance efficiently.
 
 Features -
   User Authentication: Secure login for faculty members.
@@ -52,8 +52,8 @@ Ensure your web server is running and navigate to the project directory in your 
 
 Usage -
 
-  Login
-  Navigate to the login page.
+ Login
+ Navigate to the login page.
   Enter your credentials to log in.
   Add New Student
   Go to the "Add New Student" section.
