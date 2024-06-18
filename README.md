@@ -31,7 +31,6 @@ Configure Database Connection -
 Update the config.php file with your database credentials.
 
 php -
-Copy code -
 
     <?php
     $host = 'localhost';
@@ -52,14 +51,14 @@ Ensure your web server is running and navigate to the project directory in your 
 
 Usage -
 
- Login
- Navigate to the login page.
-  Enter your credentials to log in.
-  Add New Student
-  Go to the "Add New Student" section.
-  Fill in the student's details.
-  Click "ADD STUDENT" to save the record.
-  Mark Attendance
-  Check the boxes next to student names to mark them as present.
-  Click "Submit Attendance" to save the attendance status.
+    Login
+    Navigate to the login page.
+    Enter your credentials to log in.
+    Add New Student
+    Go to the "Add New Student" section.
+    Fill in the student's details.
+    Click "ADD STUDENT" to save the record.
+    Mark Attendance
+    Check the boxes next to student names to mark them as present.
+    Click "Submit Attendance" to save the attendance status.
 
