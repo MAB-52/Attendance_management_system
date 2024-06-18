@@ -4,16 +4,17 @@ Overview -
 The Attendance Management System is a web-based application developed using PHP and MySQL. It allows faculty members to add student records and manage attendance efficiently.
 
 Features -
-  User Authentication: Secure login for faculty members.
-  Add New Students: Faculty can add new student records with details like name, roll number, course, branch, and semester.
-  Mark Attendance: Faculty can mark students as present or absent.
-  Persistent Attendance Status: The attendance status remains unchanged even when new students are added or the page is refreshed.
+
+    User Authentication: Secure login for faculty members.
+    Add New Students: Faculty can add new student records with details like name, roll number, course, branch, and semester.
+    Mark Attendance: Faculty can mark students as present or absent.
   
 Installation -
-  Prerequisites -
-    Web Server: Apache or any web server with PHP support.
-    PHP: Version 7.0 or above.
-    MySQL: Version 5.6 or above.
+
+    Prerequisites -
+        Web Server: Apache or any web server with PHP support.
+        PHP: Version 7.0 or above.
+        MySQL: Version 5.6 or above.
     
 Steps - 
 
@@ -30,7 +31,7 @@ Configure Database Connection -
 
 Update the config.php file with your database credentials.
 
-php -
+PHP -
 
     <?php
     $host = 'localhost';
@@ -62,3 +63,9 @@ Usage -
     Check the boxes next to student names to mark them as present.
     Click "Submit Attendance" to save the attendance status.
 
+Built with - 
+
+    HTML5
+    CSS3
+    BOOTSTRAP
+    PHP
